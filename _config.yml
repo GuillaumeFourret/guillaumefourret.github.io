@@ -7,7 +7,7 @@ first_name: Guillaume
 middle_name: 
 last_name: Fourret
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Computer Vision Researcher
 footer_text: >

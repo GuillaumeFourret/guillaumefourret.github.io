@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-15 14:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I successfully defended my PhD thesis, "Détection et analyse approfondie de régions d'intérêt par algorithmes d'IA dans des images acquises par drone", in July 2026 at LIRMM.
+
