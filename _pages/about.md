@@ -27,8 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+
+I am a computer vision researcher working at the intersection of deep learning, visual perception and multimodal AI. My main research interests include few-shot and data-efficient learning, open-vocabulary recognition, visual anomaly detection, and multimodal 2D/3D perception. I am particularly interested in developing robust visual models that can learn and generalize from limited or heterogeneous data.
+
+I recently completed my PhD at the University of Montpellier and LIRMM, where my research focused on the detection and analysis of regions of interest in drone-acquired videos using AI. I worked on few-shot object detection in aerial imagery, with applications to the inspection of power-line infrastructure, as well as anomaly detection for preventive maintenance. During my PhD, I explored knowledge distillation, self-supervised visual representations and domain adaptation to improve visual recognition in data-constrained settings.
+
+More recently, my research has expanded towards open-vocabulary and multimodal vision, including zero-shot object detection from 3D CAD models and the use of 2D and 3D visual representations. I am also interested in vision-language models and reasoning, particularly for scientific and physically grounded visual understanding.
+
+Before my PhD, I graduated from Grenoble INP - Esisar, where I specialized in Computer Science, Networks and Cybersecurity. During my engineering studies, I spent an exchange semester at Polytechnique Montréal, where I took courses in Computer Vision and Deep Learning.

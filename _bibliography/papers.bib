@@ -1,115 +1,66 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@INPROCEEDINGS{11084724,
+  author={Fourret, Guillaume and Chaumont, Marc and Fiorio, Christophe and Subsol, Gérard},
+  booktitle={2025 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Improving Yolov8 For Fast Few-Shot Object Detection By Dinov2 Distillation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={803-808},
+  abstract={Recent neural networks for object detection achieve excellent performance when trained on large databases but still struggle to learn new objects with few examples, leading to the development of Few-Shot Object Detection (FSOD). State-of-the-art FSOD methods often use computationally heavy architectures like Faster R-CNN or pre-trained Vision Transformers (ViTs) such as DINOV2, limiting their usage for real-time inference in resource-constrained environments. We propose a novel approach that transfers rich features from a pre-trained ViT (DINOV2) to the lightweight YOLOv8 architecture via knowledge distillation. This bridges the gap between FSOD performance and efficiency, enabling YOLOv8 to better handle few-shot scenarios while retaining computational efficiency. Experiments on the MSCOCO benchmark adapted for FSOD show that our method enhances the performance of lightweight detectors, highlighting the benefits of combining ViT feature learning with efficient detectors for real-world FSOD.},
+  keywords={Representation learning;Limiting;Computational modeling;Image processing;Neural networks;Object detection;Detectors;Computer architecture;Transformers;Real-time systems;DINOv2;YOLOv8;Real-Time;Few-Shot Object Detection;Distillation},
+  doi={10.1109/ICIP55913.2025.11084724},
+  ISSN={2381-8549},
+  month={Sep.},}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@INPROCEEDINGS{11243920,
+  author={Fourret, Guillaume and Chaumont, Marc and Subsol, Gérard and Fiorio, Christophe and Brau, Samuel},
+  booktitle={IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Anomaly Detection in Drone Videos for Preventive Maintenance of Power Lines}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={7298-7302},
+  abstract={Power lines are composed of various components that can deteriorate over time due to use. To detect potential issues with these components and prevent costly network outages, aerial drones are increasingly being utilized. They allow for the rapid inspection of large distances and provide a clear view of the different components and their defects. However, the manual analysis of flight videos by experts is labor-intensive. Moreover, the wide variety of anomalies that can cause network interruptions makes it impractical to develop dedicated automated solutions for each type, particularly due to the limited number of examples available for many anomalies. We thus propose a method to automatically detect anomalies in scenarios where no prior information about the visual appearance of anomalies is available, using drone-acquired videos. The approach relies on the computation of an anomaly score based on a generic feature vector. Results demonstrate that this approach is effective in scenarios without any examples of anomalies and requires very limited computational resources for learning.},
+  keywords={YOLO;Visualization;Sensitivity;Video sequences;Feature extraction;Vectors;Steel;Anomaly detection;Videos;Drones;Object detection;Anomaly detection;Deep Learning;Aerial drone;Video},
+  doi={10.1109/IGARSS55030.2025.11243920},
+  ISSN={2153-7003},
+  month={Aug},}
+
+@INPROCEEDINGS{11007893,
+  author={Fourret, Guillaume and Chaumont, Marc and Fiorio, Christophe and Subsol, Gérard and Brau, Samuel},
+  booktitle={2025 International Conference on Unmanned Aircraft Systems (ICUAS)}, 
+  title={Analyzing Deep-Learning Methods for Power Line Component Detection in Unmanned Aircraft System Imagery With Few Data}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={898-904},
+  abstract={Due to the critical role of power lines in modern infrastructure, numerous automated methods have been developed for their inspection. Among these, Unmanned Aircraft Systems (UAS) have emerged as a valuable tool, offering rapid and precise inspections by capturing high-resolution aerial imagery of power lines. Drones enable access to hard-to-reach areas, reduce safety risks for workers near live wires, and significantly lower the time and cost associated with traditional inspection methods. In particular, deep learning techniques have been widely applied to automate the analysis of key components via the onboard camera. However, these methods typically rely on a first stage of detection based on large, annotated datasets focused on specific components, limiting their adaptability to new or unseen components. This paper investigates the application of two state-of-the-art algorithms of Few-Shot Object Detection (FSOD) for power line component detection: DeFRCN and CD-ViTO, alongside a modified Yolov8 detector of our own in which we integrated the modules of DeFRCN. We evaluate their performance using both public and proprietary datasets, analyzing unexpected outcomes and provide insights into the practical applicability of FSOD in real-world scenarios.},
+  keywords={Fault diagnosis;Limiting;Wires;Pipelines;Detectors;Object detection;Inspection;Safety;Aircraft;Drones},
+  doi={10.1109/ICUAS65942.2025.11007893},
+  ISSN={2575-7296},
+  month={May},}
+
+@inproceedings{fourret:hal-04628594,
+  TITLE = {{Adaptation de Yolov8 pour la d{\'e}tection d'objets avec peu d'exemples}},
+  AUTHOR = {Fourret, Guillaume and Fiorio, Christophe and Subsol, G{\'e}rard and Chaumont, Marc},
+  URL = {https://hal.science/hal-04628594},
+  BOOKTITLE = {{CNIA 2024 - 8e Conf{\'e}rence Nationale en Intelligence Artificielle}},
+  ADDRESS = {La Rochelle, France},
+  ORGANIZATION = {{Plate-Forme Intelligence Artificielle}},
+  YEAR = {2024},
+  MONTH = Jul,
+  KEYWORDS = {Few-Shot Object-Detection ; Transfer Learning ; Yolov8 ; Cl{\'e}s Yolov8 ; D{\'e}tection d'objets en peu d'exemples ; Apprentissage par transfert},
+  PDF = {https://hal.science/hal-04628594v1/file/CNIA-PFIA-2024-FOURRET-FIORIO-SUBSOL-CHAUMONT-Yolov8PeuExemples.pdf},
+  HAL_ID = {hal-04628594},
+  HAL_VERSION = {v1},
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@inproceedings{fourret2023detection,
+  title={D{\'e}tection d’anomalies dans des vid{\'e}os acquises par drone pour la maintenance pr{\'e}ventive de lignes {\'e}lectriques},
+  author={Fourret, Guillaume and Fiorio, Christophe and Subsol, G{\'e}rard and Chaumont, Marc and Brau, Samuel and Geofencing, Drone},
+  booktitle={CORESA 2023-22e colloque COmpression et REpr{\'e}sentation des Signaux Audiovisuels},
+  year={2023}
 }
