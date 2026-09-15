@@ -1,15 +1,11 @@
 "subsol":
- - firstname: ["Gérard", "G."]
+  - firstname: ["Gérard", "G."]
     url: https://www.lirmm.fr/~subsol/
 
-"fourret":
- - firstname: ["Guillaume", "G."]
-    url: https://guillaumefourret.github.io/
-
 "chaumont":
- - firstname: ["Marc", "M."]
+  - firstname: ["Marc", "M."]
     url: https://people.irisa.fr/Marc.Chaumont/
 
 "fiorio":
- - firstname: ["Christophe", "C."]
+  - firstname: ["Christophe", "C."]
     url: https://fr.linkedin.com/in/christophe-fiorio-4b90061b
