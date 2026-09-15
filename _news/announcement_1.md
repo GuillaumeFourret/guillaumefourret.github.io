@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I successfully defended my PhD thesis, "Détection et analyse approfondie de régions d'intérêt par algorithmes d'IA dans des images acquises par drone", in July 2026 at LIRMM.
+I successfully defended my PhD thesis, "Detection and in-depth analysis of regions of interest using AI algorithms in drone-acquired videos", in July 2026 at LIRMM.
 
